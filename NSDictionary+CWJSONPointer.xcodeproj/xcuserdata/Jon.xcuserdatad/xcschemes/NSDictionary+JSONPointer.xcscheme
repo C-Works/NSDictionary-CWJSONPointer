@@ -17,7 +17,7 @@
                BlueprintIdentifier = "FCCD624F189B7B54003DC987"
                BuildableName = "NSDictionary+JSONPointer.app"
                BlueprintName = "NSDictionary+JSONPointer"
-               ReferencedContainer = "container:NSDictionary+JSONPointer.xcodeproj">
+               ReferencedContainer = "container:NSDictionary+CWJSONPointer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FCCD626A189B7B54003DC987"
-               BuildableName = "NSDictionary+JSONPointerTests.xctest"
-               BlueprintName = "NSDictionary+JSONPointerTests"
-               ReferencedContainer = "container:NSDictionary+JSONPointer.xcodeproj">
+               BuildableName = "NSDictionary+CWJSONPointerTests.xctest"
+               BlueprintName = "NSDictionary+CWJSONPointerTests"
+               ReferencedContainer = "container:NSDictionary+CWJSONPointer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "FCCD624F189B7B54003DC987"
             BuildableName = "NSDictionary+JSONPointer.app"
             BlueprintName = "NSDictionary+JSONPointer"
-            ReferencedContainer = "container:NSDictionary+JSONPointer.xcodeproj">
+            ReferencedContainer = "container:NSDictionary+CWJSONPointer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "FCCD624F189B7B54003DC987"
             BuildableName = "NSDictionary+JSONPointer.app"
             BlueprintName = "NSDictionary+JSONPointer"
-            ReferencedContainer = "container:NSDictionary+JSONPointer.xcodeproj">
+            ReferencedContainer = "container:NSDictionary+CWJSONPointer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "FCCD624F189B7B54003DC987"
             BuildableName = "NSDictionary+JSONPointer.app"
             BlueprintName = "NSDictionary+JSONPointer"
-            ReferencedContainer = "container:NSDictionary+JSONPointer.xcodeproj">
+            ReferencedContainer = "container:NSDictionary+CWJSONPointer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

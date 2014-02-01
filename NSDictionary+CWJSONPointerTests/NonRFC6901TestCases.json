@@ -1,0 +1,18 @@
+{
+    "foo":{
+        "bar":{
+            "true" :true,
+            "false":false,
+            "number":55,
+            "negative":-55,
+            "string":"mystring",
+            "null":null,
+            "array":[1,2,3],
+            "object":{
+                "a":1,
+                "b":2,
+                "c":3
+            }
+        }
+    }
+}

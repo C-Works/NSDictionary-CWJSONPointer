@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NSDictionary+JSONPointer.xcodeproj">
+      location = "self:NSDictionary+CWJSONPointer.xcodeproj">
    </FileRef>
 </Workspace>
