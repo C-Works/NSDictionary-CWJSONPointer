@@ -11,7 +11,6 @@
 		FC689D44189C8F7300E9DB49 /* CWJSONPointerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC689D41189C8F7300E9DB49 /* CWJSONPointerTests.m */; };
 		FC689D45189C8F7300E9DB49 /* NonRFC6901TestCases.json in Resources */ = {isa = PBXBuildFile; fileRef = FC689D42189C8F7300E9DB49 /* NonRFC6901TestCases.json */; };
 		FC689D46189C8F7300E9DB49 /* RFC6901Specification.json in Resources */ = {isa = PBXBuildFile; fileRef = FC689D43189C8F7300E9DB49 /* RFC6901Specification.json */; };
-		FC689D48189C8F8100E9DB49 /* NSDictionary+CWJSONPointerTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC689D47189C8F8100E9DB49 /* NSDictionary+CWJSONPointerTests-Info.plist */; };
 		FC689D4C189C8FD400E9DB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC689D4A189C8FD400E9DB49 /* InfoPlist.strings */; };
 		FC689D4F189C936700E9DB49 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FC689D4D189C936700E9DB49 /* LICENSE */; };
 		FC689D50189C936700E9DB49 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC689D4E189C936700E9DB49 /* README.md */; };
@@ -20,13 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC626591189CB2950020811B /* NSDictionary+CWJSONPointer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+CWJSONPointer-Prefix.pch"; path = "NSDictionary+CWJSONPointerTests/SupportFiles/NSDictionary+CWJSONPointer-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		FC689D3E189C8F5700E9DB49 /* NSDictionary+CWJSONPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+CWJSONPointer.h"; path = "NSDictionary+CWJSONPointer/NSDictionary+CWJSONPointer.h"; sourceTree = SOURCE_ROOT; };
 		FC689D3F189C8F5700E9DB49 /* NSDictionary+CWJSONPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+CWJSONPointer.m"; path = "NSDictionary+CWJSONPointer/NSDictionary+CWJSONPointer.m"; sourceTree = SOURCE_ROOT; };
 		FC689D41189C8F7300E9DB49 /* CWJSONPointerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWJSONPointerTests.m; path = "NSDictionary+CWJSONPointerTests/CWJSONPointerTests.m"; sourceTree = SOURCE_ROOT; };
 		FC689D42189C8F7300E9DB49 /* NonRFC6901TestCases.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NonRFC6901TestCases.json; path = "NSDictionary+CWJSONPointerTests/NonRFC6901TestCases.json"; sourceTree = SOURCE_ROOT; };
 		FC689D43189C8F7300E9DB49 /* RFC6901Specification.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RFC6901Specification.json; path = "NSDictionary+CWJSONPointerTests/RFC6901Specification.json"; sourceTree = SOURCE_ROOT; };
-		FC689D47189C8F8100E9DB49 /* NSDictionary+CWJSONPointerTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NSDictionary+CWJSONPointerTests-Info.plist"; path = "NSDictionary+CWJSONPointerTests/NSDictionary+CWJSONPointerTests-Info.plist"; sourceTree = SOURCE_ROOT; };
-		FC689D49189C8FBA00E9DB49 /* NSDictionary+CWJSONPointer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+CWJSONPointer-Prefix.pch"; path = "NSDictionary+CWJSONPointer/NSDictionary+CWJSONPointer-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		FC689D4B189C8FD400E9DB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "NSDictionary+CWJSONPointerTests/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
 		FC689D4D189C936700E9DB49 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC689D4E189C936700E9DB49 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -102,9 +100,8 @@
 		FCCD6273189B7B54003DC987 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC626591189CB2950020811B /* NSDictionary+CWJSONPointer-Prefix.pch */,
 				FC689D4A189C8FD400E9DB49 /* InfoPlist.strings */,
-				FC689D49189C8FBA00E9DB49 /* NSDictionary+CWJSONPointer-Prefix.pch */,
-				FC689D47189C8F8100E9DB49 /* NSDictionary+CWJSONPointerTests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,7 +162,6 @@
 				FC689D45189C8F7300E9DB49 /* NonRFC6901TestCases.json in Resources */,
 				FC689D4C189C8FD400E9DB49 /* InfoPlist.strings in Resources */,
 				FC689D46189C8F7300E9DB49 /* RFC6901Specification.json in Resources */,
-				FC689D48189C8F8100E9DB49 /* NSDictionary+CWJSONPointerTests-Info.plist in Resources */,
 				FC689D4F189C936700E9DB49 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +274,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSDictionary+CWJSONPointer/NSDictionary+CWJSONPointer-Prefix.pch";
+				GCC_PREFIX_HEADER = "NSDictionary+CWJSONPointerTests/SupportFiles/NSDictionary+CWJSONPointer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NSDictionary+CWJSONPointerTests/NSDictionary+CWJSONPointerTests-Info.plist";
+				INFOPLIST_FILE = "NSDictionary+CWJSONPointerTests/SupportFiles/NSDictionary+CWJSONPointerTests-Info.plist";
 				PRODUCT_NAME = "NSDictionary+CWJSONPointerTests";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -299,8 +295,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSDictionary+CWJSONPointer/NSDictionary+CWJSONPointer-Prefix.pch";
-				INFOPLIST_FILE = "NSDictionary+CWJSONPointerTests/NSDictionary+CWJSONPointerTests-Info.plist";
+				GCC_PREFIX_HEADER = "NSDictionary+CWJSONPointerTests/SupportFiles/NSDictionary+CWJSONPointer-Prefix.pch";
+				INFOPLIST_FILE = "NSDictionary+CWJSONPointerTests/SupportFiles/NSDictionary+CWJSONPointerTests-Info.plist";
 				PRODUCT_NAME = "NSDictionary+CWJSONPointerTests";
 				WRAPPER_EXTENSION = xctest;
 			};
