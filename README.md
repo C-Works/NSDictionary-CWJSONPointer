@@ -24,7 +24,7 @@ NSDictionary *json = [NSJSONSerialization JSONObjectWithData: data options:0 err
 Or you can do the same using a JSON URI Fragment:
 ```Objective-C
 NSDictionary *json = [NSJSONSerialization JSONObjectWithData: data options:0 error: &error ];
-[json json objectForPointer: @"#/foo/bar" ]
+[json objectForPointer: @"#/foo/bar" ]
 ```
 
 If you want to validate the returned object for pointer use of the following methods:
