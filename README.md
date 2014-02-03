@@ -27,23 +27,23 @@ NSDictionary *json = [NSJSONSerialization JSONObjectWithData: data options:0 err
 [json objectForPointer: @"#/foo/bar" ]
 ```
 
-If you want to validate the returned object for pointer use of the following methods:
+If you want to validate the returned object type use of the following methods:
 ```Objective-C
 NSDictionary *json = [NSJSONSerialization JSONObjectWithData: data options:0 error: &error ];
-[json json NSArrayForPointer:      @"/foo/bar" ]
-[json json BooleanForPointer:      @"/foo/bar" ]
-[json json NSStringForPointer:     @"/foo/bar" ]
-[json json NSNumberForPointer:     @"/foo/bar" ]
-[json json NSDictionaryForPointer: @"/foo/bar" ]
+[json NSArrayForPointer:      @"/foo/bar" ]
+[json BooleanForPointer:      @"/foo/bar" ]
+[json NSStringForPointer:     @"/foo/bar" ]
+[json NSNumberForPointer:     @"/foo/bar" ]
+[json NSDictionaryForPointer: @"/foo/bar" ]
 ```
 
-If you want to validate the returned object for fragment use of the following methods:
+If you want to validate the returned object type for fragments use the same methods:
 ```Objective-C
 NSDictionary *json = [NSJSONSerialization JSONObjectWithData: data options:0 error: &error ];
-[json json NSArrayForPointer:      @"#/foo/bar" ]
-[json json BooleanForPointer:      @"#/foo/bar" ]
-[json json NSStringForPointer:     @"#/foo/bar" ]
-[json json NSNumberForPointer:     @"#/foo/bar" ]
-[json json NSDictionaryForPointer: @"#/foo/bar" ]
+[json NSArrayForPointer:      @"#/foo/bar" ]
+[json BooleanForPointer:      @"#/foo/bar" ]
+[json NSStringForPointer:     @"#/foo/bar" ]
+[json NSNumberForPointer:     @"#/foo/bar" ]
+[json NSDictionaryForPointer: @"#/foo/bar" ]
 ```
 Note: Boolean returns an NSNumber with three possible states: null, 0 or 1. If the json contains the number 1 or 0 it will return valid, but will return false for all numbers above 1 or below 0.
